@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: zainus-world
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 22
